@@ -1,11 +1,13 @@
 import React from 'react';
+import User from './components/User';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div claspsName="App">
       <header className="App-header">
+        <User />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
